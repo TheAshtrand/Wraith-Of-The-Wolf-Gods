@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<subtypes>
+    <class ID="Minds" ChargenTitle="Role" SingilarTitle="Role">
+
+        <subtype Name="Cultist" Gear="StartingGear_Wolf_Cultist" Tile="wolf_cultists\Wolf_Cultist.png" DetailColor="K">
+            <stat Name="Agility" Bonus="2" />
+            <stat Name="Strength" Bonus="1" />
+            <skills>
+                <skill Name="ShortBlades_Rejoinder"/>
+                <skill Name="ShortBlades_Expertise"/>
+            </skills>
+            <extrainfo>Starts With A Kukri And Three Random Tonics</extrainfo>
+        </subtype>
+
+        <subtype Name="Priest" Gear="StartingGear_Wolf_Priest" Tile="wolf_cultists\Wolf_Priest.png" DetailColor="K">
+            <stat Name="Ego" Bonus="4" />
+            <stat Name="Willpower" Bonus="2" />
+            <skills>
+                <skill Name="Persuasion_Proselytize"/>
+                <skill Name="Physic_Nostrums"/>
+            </skills>
+            <extrainfo>Starts With A Amber-Tipped Staff And The Corpus Choliys</extrainfo>
+        </subtype>
+
+    </class>
+</subtypes>

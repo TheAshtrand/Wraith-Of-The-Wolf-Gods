@@ -1,0 +1,27 @@
+<populations>
+  <population Name="StartingGear_Wolf_Cultist">
+    <group Name="Items" Style="pickeach">
+      <table Name="Injectors" Number="3" />
+      <table Name="Cells" Number="1-2" />
+      <table Name="StartingGear_Common"/>
+      <object Blueprint="Witchwood Bark" Number="3-4" />
+      <object Blueprint="Leather Cloak" Number="1" />
+      <object Blueprint="Steel Kukri" Number="1" />
+      <object Blueprint="Wolf_Mask" Number="1" />
+      <object Blueprint="SalveTonic" Number="1-3" />
+    </group>
+  </population>
+
+  <population Name="StartingGear_Wolf_Priest">
+    <group Name="Items" Style="pickeach">
+      <table Name="StartingGear_Common"/>
+      <object Blueprint="Black Robes" Number="1" />
+      <object Blueprint="Amber-Tipped Staff" Number="1" />
+      <object Blueprint="SalveTonic" Number="1-3" />
+      <table Name="Injectors" Number="2-4" />
+      <table Name="Cells" Number="1-2" />
+      <object Blueprint="Witchwood Bark" Number="3-4" />
+      <Object Blueprint="Corpus"/>
+    </group>
+  </population>
+</populations>

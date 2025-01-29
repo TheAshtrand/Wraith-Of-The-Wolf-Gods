@@ -1,0 +1,7 @@
+<Objects>
+
+  <object Name="Wolf_Mask" Inherits="BaseMask">
+    <part Name="Render" DisplayName="Wolf Mask" Tile="Wolf_Mask.png" ColorString="&amp;y" DetailColor="Y" />
+  </object>
+
+</Objects>
